@@ -3,31 +3,144 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#141516">
+    <meta name="theme-color" content="#101112">
     <meta name="description" content="2XR Player is a video player in development for Android with XR glasses and Meta Quest. Local files, SMB shares, 2D, 3D, VR180 and 360° video.">
     <meta property="og:type" content="website">
     <meta property="og:title" content="2XR Player">
-    <meta property="og:description" content="Video player for Android with XR glasses and Meta Quest. In development.">
+    <meta property="og:description" content="Video player for XREAL One, VITURE Beast and Meta Quest. In development.">
     <title>2XR Player</title>
+    <link rel="canonical" href="https://2xr.me/">
+    <meta property="og:url" content="https://2xr.me/">
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <main>
-      <h1><img src="assets/wordmark.svg" alt="2XR" width="104" height="45"><span>Player</span></h1>
-      <p class="description">Video player for Android with XR glasses and Meta Quest.</p>
-      <dl>
+    <main class="page">
+      <header class="header">
+        <h1 class="brand"><img src="assets/wordmark.svg" alt="2XR" width="104" height="45"><span>PLAYER</span></h1>
+        <span class="development">In development</span>
+      </header>
+
+      <section class="download-section" aria-labelledby="downloads-title">
         <div>
-          <dt>Formats</dt>
-          <dd>2D, stereoscopic 3D, VR180, 360°</dd>
+          <h2 id="downloads-title">Downloads</h2>
+          <p id="download-note">Coming soon</p>
         </div>
-        <div>
-          <dt>Sources</dt>
-          <dd>Local files, SMB shares, compatible media and catalog URLs</dd>
+        <ul class="downloads" aria-describedby="download-note">
+          <li><span class="download-link" role="link" aria-disabled="true"><img class="download-icon" src="assets/icons/google-play.svg" alt="" width="28" height="28"><span>Google Play</span></span></li>
+          <li><span class="download-link" role="link" aria-disabled="true"><img class="download-icon" src="assets/icons/meta.svg" alt="" width="28" height="28"><span>Meta Store</span></span></li>
+          <li><span class="download-link" role="link" aria-disabled="true"><img class="download-icon" src="assets/icons/download.svg" alt="" width="28" height="28"><span class="download-label">APK<small>GitHub Releases</small></span></span></li>
+        </ul>
+      </section>
+
+      <section class="devices" aria-labelledby="devices-title">
+        <h2 id="devices-title">Devices</h2>
+        <div class="device-grid">
+          <div class="device-group">
+            <h3>Android + glasses</h3>
+            <ul>
+              <li><strong class="device-name"><img class="device-logo device-logo-xreal" src="assets/icons/xreal.svg" alt="XREAL" width="62" height="14"><span>One</span></strong></li>
+              <li><strong class="device-name"><img class="device-logo" src="assets/icons/viture.svg" alt="" width="26" height="24"><span>VITURE Beast</span></strong><span class="note">Experimental</span></li>
+            </ul>
+          </div>
+          <div class="device-group">
+            <h3>Standalone VR</h3>
+            <ul>
+              <li><strong class="device-name"><img class="device-logo" src="assets/icons/meta.svg" alt="" width="26" height="24"><span>Meta Quest 3</span></strong></li>
+              <li><strong class="device-name"><img class="device-logo" src="assets/icons/meta.svg" alt="" width="26" height="24"><span>Meta Quest 2</span></strong><span class="note">Testing planned</span></li>
+            </ul>
+          </div>
         </div>
-      </dl>
-      <p class="status">In development. Downloads are not available yet.</p>
-      <footer>2xr.me</footer>
+      </section>
+
+      <section class="features" aria-labelledby="features-title">
+        <h2 id="features-title">Features</h2>
+        <div class="feature-grid">
+          <article>
+            <h3>Video formats</h3>
+            <ul class="feature-tags" aria-label="Video formats at a glance">
+              <li>2D</li>
+              <li>3D</li>
+              <li>180°</li>
+              <li>360°</li>
+              <li>FISHEYE</li>
+            </ul>
+            <ul class="feature-details">
+              <li>Side-by-side and top-bottom stereo</li>
+              <li>Auto detection or manual selection</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Media sources</h3>
+            <ul class="feature-tags" aria-label="Media sources at a glance">
+              <li>LOCAL</li>
+              <li>SMB</li>
+              <li>URL</li>
+              <li>CATALOG</li>
+            </ul>
+            <ul class="feature-details">
+              <li>Files, folders and SMB network shares</li>
+              <li>Direct URLs and catalogs you add</li>
+              <li>DeoVR-compatible catalog support</li>
+            </ul>
+          </article>
+          <article>
+            <h3>View controls</h3>
+            <ul class="feature-tags" aria-label="View controls at a glance">
+              <li>3DoF</li>
+              <li>ZOOM</li>
+              <li>1:1</li>
+            </ul>
+            <ul class="feature-details">
+              <li>Head tracking, recenter and 1:1 zoom</li>
+              <li>Fine seeking on the timeline</li>
+              <li>Phone and tablet touch controls</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Image processing</h3>
+            <ul class="feature-tags" aria-label="Image processing at a glance">
+              <li>SDR</li>
+              <li>HDR10</li>
+              <li>HLG</li>
+              <li>SGSR1</li>
+            </ul>
+            <ul class="feature-details">
+              <li>Adjustable sharpening</li>
+              <li>SGSR1 upscaling where available</li>
+              <li>Auto or manual SDR / PQ / HLG color</li>
+            </ul>
+          </article>
+          <article>
+            <h3>INSV playback</h3>
+            <ul class="feature-tags" aria-label="INSV playback at a glance">
+              <li>INSV</li>
+              <li>360°</li>
+              <li>STABILIZATION</li>
+            </ul>
+            <ul class="feature-details">
+              <li>Compatible Insta360 recordings</li>
+              <li>Dual-lens stitching during playback</li>
+              <li>Recorded-motion stabilization</li>
+            </ul>
+          </article>
+          <article>
+            <h3>On Meta Quest</h3>
+            <ul class="feature-tags" aria-label="On Meta Quest at a glance">
+              <li>VR</li>
+              <li>CONTROLLERS</li>
+              <li>PASSTHROUGH</li>
+            </ul>
+            <ul class="feature-details">
+              <li>In-headset controller playback</li>
+              <li>Seek, zoom and recenter</li>
+              <li>Passthrough for compatible alpha video</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+
     </main>
   </body>
 </html>
