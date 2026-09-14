@@ -1,6 +1,6 @@
 # 2XR Player website
 
-A static, responsive landing page for `2xr.me`. It contains no APKs, download
+A compact, static project page for `2xr.me`. It contains no APKs, download
 links, account flows, analytics, third-party scripts or remote font requests.
 
 The owner has authorized a public site with a private source repository. The
@@ -22,12 +22,10 @@ Keep this README and the `publishing/` directory outside the deployed artifact.
 
 ## Design
 
-The existing pixel wordmark and orange accent are adapted from the player's
-launcher SVG. The layout pairs dark neutral surfaces, large type and a cinematic
-landscape with short descriptions of video formats, personal sources and the
-platforms in development. All navigation is native in-page navigation, with
-keyboard focus indicators, a skip link, responsive layouts and reduced-motion
-support. Device text describes development targets, not certified compatibility.
+A single compact column with the existing pixel wordmark, a factual description,
+video formats, media sources and development status. No marketing slogans,
+hero images, promotional sections or calls to action. The layout uses semantic
+HTML and responsive typography without JavaScript or external dependencies.
 
 ## Future GitHub Pages setup
 
@@ -61,15 +59,3 @@ References:
 - [GitHub custom domain configuration](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 - [GitHub Pages custom workflows](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)
 - [Webnames DNS record editor](https://www.webnames.ru/faq/nastrojka-dns/dobavit_zapis_na_dns_servery_webnames_ru)
-
-## Hero artwork
-
-`assets/hero.webp` was generated with the built-in image_gen tool and encoded
-as WebP for the site. It is an illustrative landscape, not an app screenshot
-or a claim about a real location.
-
-Prompt: Cinematic photorealistic 16:9 panoramic snow-capped mountains and dark
-glacial lake at blue hour, narrow warm sunrise horizon, dark navy and
-desaturated teal with gold highlights, central/right massif, open darker
-upper-left sky, natural rock detail and soft mist. No people, devices, glasses,
-logos, text, UI, stars, or watermarks.
