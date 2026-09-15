@@ -5,9 +5,8 @@ Static website for [2xr.me](https://2xr.me/), hosted on GitHub Pages from
 
 ## Content
 
-The page lists supported and experimental devices, video formats, media sources,
-view controls, image processing, INSV playback and Oculus Quest controls. Oculus Quest 2
-is retained with testing planned. VITURE Beast remains experimental.
+The page lists devices, video formats, media sources,
+view controls, image processing, INSV playback and Oculus Quest controls.
 
 Google Play, Oculus Quest Store and APK buttons are intentionally unavailable placeholders.
 APKs will be uploaded as assets in this repository's GitHub Releases. After the
