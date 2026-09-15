@@ -9,9 +9,14 @@ The page lists devices, video formats, media sources,
 view controls, image processing, INSV playback and Oculus Quest controls.
 
 Google Play, Oculus Store and APK buttons are intentionally unavailable placeholders.
-APKs will be uploaded as assets in this repository's GitHub Releases. After the
-first release is available, the APK button can point to
-`https://github.com/dklimoff/2xr.me/releases/latest`. Store URLs remain pending.
+APKs will be uploaded as assets in the separate public
+[dklimoff/2xr](https://github.com/dklimoff/2xr) release repository. Once a release
+is published, show its version on the site and point the APK button to its
+versioned release page, such as
+`https://github.com/dklimoff/2xr/releases/tag/v0.1.N`. The general latest-release
+URL is `https://github.com/dklimoff/2xr/releases/latest`. Store URLs remain pending.
+Preparing these links does not activate downloads; the current page stays unchanged
+until an APK release is explicitly requested and its files are available.
 No APKs, analytics, third-party scripts or remote fonts are included in the site.
 
 ## Local preview
