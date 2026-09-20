@@ -5,19 +5,20 @@ Static website for [2xr.me](https://2xr.me/), hosted on GitHub Pages from
 
 ## Content
 
-The page lists devices, video formats, media sources,
+The page lists Android and macOS support for XR glasses, Oculus Quest devices,
+video formats, media sources,
 view controls, image processing, INSV playback and Oculus Quest controls.
 
-Google Play, Oculus Store and APK buttons are intentionally unavailable placeholders.
-APKs will be uploaded as assets in the separate public
+Google Play, Oculus Store, APK and macOS DMG buttons are intentionally unavailable placeholders.
+APKs and the macOS DMG will be uploaded as assets in the separate public
 [dklimoff/2xr](https://github.com/dklimoff/2xr) release repository. Once a release
-is published, show its version on the site and point the APK button to its
+is published, show its version on the site and point the APK and DMG buttons to its
 versioned release page, such as
-`https://github.com/dklimoff/2xr/releases/tag/v0.1.N`. The general latest-release
+`https://github.com/dklimoff/2xr/releases/tag/v1.0.N`. The general latest-release
 URL is `https://github.com/dklimoff/2xr/releases/latest`. Store URLs remain pending.
 Preparing these links does not activate downloads; the current page stays unchanged
-until an APK release is explicitly requested and its files are available.
-No APKs, analytics, third-party scripts or remote fonts are included in the site.
+until a binary release is explicitly requested and its files are available.
+No APKs, DMGs, analytics, third-party scripts or remote fonts are included in the site.
 
 ## Local preview
 
@@ -31,7 +32,7 @@ Open `http://127.0.0.1:4173/`. No package installation or build is required.
 
 The original mountain design palette is retained: charcoal and blue-black
 surfaces, warm white text, neutral gray details and an orange accent. Large
-store and APK buttons sit below the pixel wordmark. Device logos precede six
+store, APK and DMG buttons sit below the pixel wordmark. Device logos precede six
 feature groups with thin translucent badge outlines and soft corners.
 
 The desktop layout uses three feature columns and compact spacing. Narrow
