@@ -5,11 +5,11 @@ Static website for [2xr.me](https://2xr.me/), hosted on GitHub Pages from
 
 ## Content
 
-The page lists Android and macOS support for XR glasses, Oculus Quest devices,
+The page lists Android and Apple Silicon macOS support for XR glasses, Oculus Quest devices,
 video formats, media sources,
 view controls, image processing, INSV playback and Oculus Quest controls.
 
-Google Play, Oculus Store, APK and macOS DMG buttons are intentionally unavailable placeholders.
+Google Play, Oculus Store, APK and Apple Silicon macOS DMG buttons are intentionally unavailable placeholders.
 APKs and the macOS DMG will be uploaded as assets in the separate public
 [dklimoff/2xr](https://github.com/dklimoff/2xr) release repository. Once a release
 is published, show its version on the site and point the APK and DMG buttons to its
