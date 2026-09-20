@@ -38,7 +38,7 @@ feature groups with thin translucent badge outlines and soft corners.
 The desktop layout uses three feature columns and compact spacing. Narrow
 screens use fewer columns and preserve natural scrolling where necessary.
 Icon sources and license notices are under `assets/icons/`; the Apple Silicon
-mark is a small project-owned chip icon used to identify the macOS build.
+mark is a minimal monochrome Simple Icons glyph used to identify the macOS build.
 
 ## Deployment
 
