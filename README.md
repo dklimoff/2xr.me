@@ -30,10 +30,12 @@ Open `http://127.0.0.1:4173/`. No package installation or build is required.
 
 ## Design
 
-The original mountain design palette is retained: charcoal and blue-black
-surfaces, warm white text, neutral gray details and an orange accent. Large
-store, APK and DMG buttons sit below the pixel wordmark. Device logos precede six
-feature groups with thin translucent badge outlines and soft corners.
+The palette uses three color roles: midnight slate (`#0e1418`) for the canvas,
+warm ivory (`#f2eee7`) for text, and restrained burnt orange (`#c68143`) for
+the 2XR mark and direct-download emphasis. Surface and border shades are
+derived from the slate family. Store placeholders remain neutral; APK and DMG
+placeholders carry the orange accent. Device logos precede six feature groups
+with soft corners and quiet outlines.
 
 The desktop layout uses three feature columns and compact spacing. Narrow
 screens use fewer columns and preserve natural scrolling where necessary.
