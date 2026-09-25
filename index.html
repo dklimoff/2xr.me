@@ -12,7 +12,7 @@
     <link rel="canonical" href="https://2xr.me/">
     <meta property="og:url" content="https://2xr.me/">
     <link rel="icon" href="assets/favicon.svg?v=2" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css?v=5">
+    <link rel="stylesheet" href="styles.css?v=6">
   </head>
   <body>
     <main class="page">
@@ -64,86 +64,44 @@
       <section class="features" aria-labelledby="features-title">
         <h2 id="features-title">Features</h2>
         <div class="feature-grid">
-          <article>
-            <h3>Video formats</h3>
-            <ul class="feature-tags" aria-label="Video formats at a glance">
-              <li>2D</li>
-              <li>3D</li>
-              <li>180°</li>
-              <li>360°</li>
-              <li>FISHEYE</li>
+          <article class="feature-card feature-card-primary">
+            <h3>Spatial video</h3>
+            <ul class="format-showcase" aria-label="Spatial video formats">
+              <li><span class="format-icon format-icon-180" aria-hidden="true"></span><strong>VR180</strong></li>
+              <li><span class="format-icon format-icon-fisheye" aria-hidden="true"></span><strong>Fisheye <span>190°</span></strong></li>
+              <li><span class="format-icon format-icon-alpha" aria-hidden="true"></span><strong>Passthrough</strong></li>
             </ul>
-            <ul class="feature-details">
-              <li>Side-by-side and top-bottom stereo</li>
-              <li>Auto detection or manual selection</li>
+            <p class="feature-note">Also 2D, 3D and 360° · Quest passthrough for compatible alpha video</p>
+          </article>
+          <article class="feature-card feature-card-primary">
+            <h3>Watch your way</h3>
+            <ul class="viewing-modes">
+              <li><span class="mode-icon mode-icon-screen" aria-hidden="true"></span><span>On screen</span></li>
+              <li><span class="mode-icon mode-icon-glasses" aria-hidden="true"></span><span>XREAL One · VITURE Beast</span></li>
+              <li><span class="mode-icon mode-icon-quest" aria-hidden="true"></span><span>Oculus Quest 2 / 3</span></li>
             </ul>
           </article>
-          <article>
+          <article class="feature-card feature-card-primary feature-card-insv">
+            <h3>Insta360 INSV</h3>
+            <div class="insv-showcase">
+              <span class="insv-orbit" aria-hidden="true">360°</span>
+              <p><strong>Full immersion on Quest</strong><span>Compatible dual-lens recordings play with stitching and recorded-motion stabilization.</span></p>
+            </div>
+          </article>
+          <article class="feature-card feature-card-secondary">
             <h3>Media sources</h3>
-            <ul class="feature-tags" aria-label="Media sources at a glance">
-              <li>LOCAL</li>
-              <li>SMB</li>
-              <li>URL</li>
-              <li>CATALOG</li>
-            </ul>
-            <ul class="feature-details">
-              <li>Files, folders and SMB network shares</li>
-              <li>Direct URLs and catalogs you add</li>
-              <li>DeoVR-compatible catalog support</li>
-            </ul>
+            <p>Local files, SMB shares, direct URLs and catalogs you add.</p>
+            <span class="feature-keywords">LOCAL · SMB · URL · CATALOG</span>
           </article>
-          <article>
-            <h3>INSV playback</h3>
-            <ul class="feature-tags" aria-label="INSV playback at a glance">
-              <li>INSV</li>
-              <li>360°</li>
-              <li>STABILIZATION</li>
-            </ul>
-            <ul class="feature-details">
-              <li>Compatible Insta360 recordings</li>
-              <li>Dual-lens stitching during playback</li>
-              <li>Recorded-motion stabilization</li>
-            </ul>
+          <article class="feature-card feature-card-secondary">
+            <h3>Image quality</h3>
+            <p>SDR, HDR10 and HLG color, sharpening and optional SGSR1 upscaling.</p>
+            <span class="feature-keywords">SDR · HDR10 · HLG · SGSR1</span>
           </article>
-          <article>
-            <h3>View controls</h3>
-            <ul class="feature-tags" aria-label="View controls at a glance">
-              <li>3DoF</li>
-              <li>ZOOM</li>
-              <li>1:1</li>
-            </ul>
-            <ul class="feature-details">
-              <li>Head tracking, recenter and 1:1 zoom</li>
-              <li>Fine seeking on the timeline</li>
-              <li>Phone and tablet touch controls</li>
-            </ul>
-          </article>
-          <article>
-            <h3>Image processing</h3>
-            <ul class="feature-tags" aria-label="Image processing at a glance">
-              <li>SDR</li>
-              <li>HDR10</li>
-              <li>HLG</li>
-              <li>SGSR1</li>
-            </ul>
-            <ul class="feature-details">
-              <li>Adjustable sharpening</li>
-              <li>SGSR1 upscaling where available</li>
-              <li>Auto or manual SDR / PQ / HLG color</li>
-            </ul>
-          </article>
-          <article>
-            <h3>On Oculus Quest</h3>
-            <ul class="feature-tags" aria-label="On Oculus Quest at a glance">
-              <li>VR</li>
-              <li>CONTROLLERS</li>
-              <li>PASSTHROUGH</li>
-            </ul>
-            <ul class="feature-details">
-              <li>In-headset controller playback</li>
-              <li>Seek, zoom and recenter</li>
-              <li>Passthrough for compatible alpha video</li>
-            </ul>
+          <article class="feature-card feature-card-secondary">
+            <h3>Playback controls</h3>
+            <p>Head tracking, recenter, zoom and precise seeking. Quest controllers supported.</p>
+            <span class="feature-keywords">3DoF · ZOOM · 1:1</span>
           </article>
         </div>
       </section>
