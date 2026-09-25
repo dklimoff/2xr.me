@@ -56,6 +56,7 @@ h2 { margin-bottom: .48rem; color: #949da0; font-size: .72rem; font-weight: 650;
 .device-option { display: flex; min-height: 2.45rem; padding: .32rem .5rem; border: 1px solid var(--line); border-radius: .48rem; background: #192125; }
 .device-host { display: inline-flex; align-items: center; gap: .35rem; min-width: 0; }
 .device-host span, .device-name span { white-space: nowrap; }
+.device-logo-apple + span { white-space: normal; line-height: 1.05; }
 .pair-plus { color: #667074; font-size: .85rem; }
 .device-name { display: inline-flex; align-items: center; gap: .45rem; }
 .device-logo { display: block; width: 1.45rem; height: 1.3rem; object-fit: contain; flex: 0 0 auto; }
