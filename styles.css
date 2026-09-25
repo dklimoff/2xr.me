@@ -98,15 +98,8 @@ h2 { margin-bottom: .48rem; color: #949da0; font-size: .72rem; font-weight: 650;
 .source-showcase li > span:last-child { display: grid; min-width: 0; gap: .12rem; }
 .source-showcase strong { color: #e8e9e5; font-size: .8rem; font-weight: 620; line-height: 1.15; }
 .source-showcase small { color: var(--muted); font-size: .67rem; line-height: 1.2; }
-.source-icon { position: relative; display: grid; width: 1.65rem; height: 1.45rem; flex: 0 0 1.65rem; place-items: center; color: #e6b98f; font-size: .72rem; font-weight: 700; }
-.source-icon-smb::before { position: absolute; inset: .28rem .04rem .06rem; content: ""; border: 1.5px solid #d4a57c; border-radius: .18rem; }
-.source-icon-smb::after { position: absolute; top: .03rem; left: .3rem; width: .7rem; height: .42rem; content: ""; border: 1.5px solid #d4a57c; border-bottom: 0; border-radius: .15rem .15rem 0 0; }
-.source-icon-deovr::before, .source-icon-deovr::after { position: absolute; width: 1.18rem; height: .76rem; content: ""; border: 1.5px solid #d4a57c; border-radius: 50%; transform: rotate(-8deg); }
-.source-icon-deovr::before { top: .1rem; }
-.source-icon-deovr::after { bottom: .05rem; opacity: .7; }
-.source-icon-jillvr { border: 1.5px solid #d4a57c; border-radius: 50%; }
-.source-icon-filters::before { position: absolute; inset: .1rem .08rem; content: ""; background: linear-gradient(#d4a57c 0 0) 0 .16rem / 100% 1.5px no-repeat, linear-gradient(#d4a57c 0 0) 0 .62rem / 100% 1.5px no-repeat, linear-gradient(#d4a57c 0 0) 0 1.08rem / 100% 1.5px no-repeat; }
-.source-icon-filters::after { position: absolute; top: .16rem; left: .38rem; width: .28rem; height: .28rem; content: ""; border: 1.5px solid #d4a57c; border-radius: 50%; background: #192125; box-shadow: .62rem .46rem 0 -.01rem #192125, .62rem .46rem 0 .08rem #d4a57c, .12rem .92rem 0 -.01rem #192125, .12rem .92rem 0 .08rem #d4a57c; }
+.source-icon { display: block; width: 1.55rem; height: 1.55rem; flex: 0 0 1.55rem; fill: none; stroke: #d4a57c; stroke-width: 1.55; stroke-linecap: round; stroke-linejoin: round; }
+.source-icon-fill { fill: #d4a57c; stroke: none; }
 .source-note { margin-top: .38rem; }
 .feature-card-secondary p { margin-top: .45rem; color: var(--muted); font-size: .82rem; line-height: 1.27; }
 .feature-keywords { display: block; margin-top: .45rem; color: #c8a688; font-size: .64rem; font-weight: 650; letter-spacing: .09em; }
