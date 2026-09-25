@@ -7,8 +7,9 @@ Static website for [2xr.me](https://2xr.me/), hosted on GitHub Pages from
 
 The page lists Android and Apple Silicon macOS support for XR glasses and Oculus Quest devices.
 Its primary feature cards cover VR180/fisheye/passthrough formats, screen/glasses/Quest viewing,
-and compatible Insta360 INSV 360° playback. Media sources, image quality and playback controls
-appear in a compact second row.
+and compatible Insta360 INSV 360° playback. A dedicated source card presents SMB 2/3 shares,
+DeoVR-compatible catalogs, JillVR support and advanced catalog filters. Image quality and playback
+controls appear in a compact final row.
 
 Google Play, Oculus Store, APK and Apple Silicon macOS DMG buttons are intentionally unavailable placeholders.
 APKs and the macOS DMG will be uploaded as assets in the separate public
@@ -35,8 +36,8 @@ The palette uses three color roles: midnight slate (`#0e1418`) for the canvas,
 warm ivory (`#f2eee7`) for text, and restrained burnt orange (`#c68143`) for
 the 2XR mark and direct-download emphasis. Surface and border shades are
 derived from the slate family. Store placeholders remain neutral; APK and DMG
-placeholders carry the orange accent. Device logos precede three illustrated
-feature cards and three compact supporting cards with soft corners and quiet outlines.
+placeholders carry the orange accent. Device logos precede three illustrated feature cards,
+a full-width source card and two compact supporting cards with soft corners and quiet outlines.
 
 The desktop layout uses three feature columns and compact spacing. Narrow
 screens use fewer columns and preserve natural scrolling where necessary.

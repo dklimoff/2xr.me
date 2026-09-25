@@ -62,10 +62,11 @@ h2 { margin-bottom: .48rem; color: #949da0; font-size: .72rem; font-weight: 650;
 .device-logo-xreal { width: 3.45rem; height: .78rem; }
 
 .features { margin-top: .6rem; }
-.feature-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .5rem; }
+.feature-grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: .5rem; }
 .feature-card { min-width: 0; padding: .65rem .75rem; background: linear-gradient(155deg, var(--surface-raised), var(--surface)); border: 1px solid var(--line); border-radius: .62rem; }
-.feature-card-primary { min-height: 10.5rem; }
-.feature-card-secondary { min-height: 6.1rem; background: #192125; }
+.feature-card-primary { grid-column: span 2; min-height: 10.5rem; }
+.feature-card-secondary { grid-column: span 3; min-height: 6.1rem; background: #192125; }
+.feature-card-sources { grid-column: 1 / -1; min-height: 7.6rem; }
 .feature-card h3 { display: flex; align-items: center; font-size: .94rem; font-weight: 620; letter-spacing: -.01em; }
 .feature-card h3::before { content: ""; display: block; width: .18rem; height: .86rem; margin-right: .45rem; border-radius: 999px; background: var(--accent); }
 .format-showcase { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .35rem; margin-top: .58rem; }
@@ -92,6 +93,21 @@ h2 { margin-bottom: .48rem; color: #949da0; font-size: .72rem; font-weight: 650;
 .insv-orbit { display: grid; width: 5.2rem; height: 5.2rem; flex: 0 0 5.2rem; place-items: center; border: 1px solid #b98d68; border-radius: 50%; color: #f0d1b5; background: radial-gradient(circle at 38% 30%, #614832, #202a2c 72%); box-shadow: 0 0 0 .26rem #293237, 0 0 0 .32rem #79624f; font-size: 1.3rem; font-weight: 650; letter-spacing: -.04em; }
 .insv-showcase p { display: grid; gap: .34rem; color: var(--muted); font-size: .78rem; line-height: 1.3; }
 .insv-showcase strong { color: var(--text); font-size: .9rem; line-height: 1.2; }
+.source-showcase { display: grid; grid-template-columns: .8fr 1fr .85fr 1.6fr; gap: .38rem; margin-top: .52rem; }
+.source-showcase li { display: flex; min-width: 0; min-height: 3.8rem; align-items: center; gap: .58rem; padding: .42rem .55rem; background: #192125; border: 1px solid #39464a; border-radius: .48rem; }
+.source-showcase li > span:last-child { display: grid; min-width: 0; gap: .12rem; }
+.source-showcase strong { color: #e8e9e5; font-size: .8rem; font-weight: 620; line-height: 1.15; }
+.source-showcase small { color: var(--muted); font-size: .67rem; line-height: 1.2; }
+.source-icon { position: relative; display: grid; width: 1.65rem; height: 1.45rem; flex: 0 0 1.65rem; place-items: center; color: #e6b98f; font-size: .72rem; font-weight: 700; }
+.source-icon-smb::before { position: absolute; inset: .28rem .04rem .06rem; content: ""; border: 1.5px solid #d4a57c; border-radius: .18rem; }
+.source-icon-smb::after { position: absolute; top: .03rem; left: .3rem; width: .7rem; height: .42rem; content: ""; border: 1.5px solid #d4a57c; border-bottom: 0; border-radius: .15rem .15rem 0 0; }
+.source-icon-deovr::before, .source-icon-deovr::after { position: absolute; width: 1.18rem; height: .76rem; content: ""; border: 1.5px solid #d4a57c; border-radius: 50%; transform: rotate(-8deg); }
+.source-icon-deovr::before { top: .1rem; }
+.source-icon-deovr::after { bottom: .05rem; opacity: .7; }
+.source-icon-jillvr { border: 1.5px solid #d4a57c; border-radius: 50%; }
+.source-icon-filters::before { position: absolute; inset: .1rem .08rem; content: ""; background: linear-gradient(#d4a57c 0 0) 0 .16rem / 100% 1.5px no-repeat, linear-gradient(#d4a57c 0 0) 0 .62rem / 100% 1.5px no-repeat, linear-gradient(#d4a57c 0 0) 0 1.08rem / 100% 1.5px no-repeat; }
+.source-icon-filters::after { position: absolute; top: .16rem; left: .38rem; width: .28rem; height: .28rem; content: ""; border: 1.5px solid #d4a57c; border-radius: 50%; background: #192125; box-shadow: .62rem .46rem 0 -.01rem #192125, .62rem .46rem 0 .08rem #d4a57c, .12rem .92rem 0 -.01rem #192125, .12rem .92rem 0 .08rem #d4a57c; }
+.source-note { margin-top: .38rem; }
 .feature-card-secondary p { margin-top: .45rem; color: var(--muted); font-size: .82rem; line-height: 1.27; }
 .feature-keywords { display: block; margin-top: .45rem; color: #c8a688; font-size: .64rem; font-weight: 650; letter-spacing: .09em; }
 ::selection { color: var(--accent-ink); background: #dba36f; }
@@ -109,17 +125,23 @@ h2 { margin-bottom: .48rem; color: #949da0; font-size: .72rem; font-weight: 650;
   .features { margin-top: .42rem; }
   .feature-card { padding: .52rem .65rem; }
   .feature-card-primary { min-height: 9.7rem; }
-  .feature-card-secondary { min-height: 5.35rem; }
+  .feature-card-secondary { min-height: 5rem; }
+  .feature-card-sources { min-height: 6.8rem; }
   .format-showcase, .viewing-modes, .insv-showcase { margin-top: .4rem; }
   .format-showcase li { min-height: 4.6rem; }
   .viewing-modes li { min-height: 2.16rem; }
   .insv-showcase { min-height: 6.9rem; }
+  .source-showcase { margin-top: .38rem; }
+  .source-showcase li { min-height: 3.3rem; padding-block: .3rem; }
   .feature-card-secondary p { font-size: .77rem; }
   .feature-keywords { margin-top: .3rem; }
 }
 
 @media (max-width: 899px) {
   .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .feature-card-primary, .feature-card-secondary { grid-column: auto; }
+  .feature-card-sources { grid-column: 1 / -1; }
+  .source-showcase { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .download-section { grid-template-columns: 1fr; gap: .6rem; }
   .download-section > div { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; }
   .download-section h2 { margin: 0; }
@@ -140,5 +162,6 @@ h2 { margin-bottom: .48rem; color: #949da0; font-size: .72rem; font-weight: 650;
   .download-link { flex-direction: column; gap: .35rem; min-height: 4.5rem; padding-inline: .4rem; font-size: .9375rem; }
   .feature-grid { grid-template-columns: 1fr; }
   .feature-card { padding: .85rem; }
-  .feature-card-primary, .feature-card-secondary { min-height: 0; }
+  .feature-card-primary, .feature-card-secondary, .feature-card-sources { min-height: 0; }
+  .source-showcase { grid-template-columns: 1fr; }
 }
