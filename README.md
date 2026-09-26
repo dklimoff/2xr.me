@@ -7,7 +7,7 @@ Static website for [2xr.me](https://2xr.me/), hosted on GitHub Pages from
 
 The page lists Android and Apple Silicon macOS support for XR glasses and Oculus Quest devices.
 Its primary feature cards cover VR180/fisheye/passthrough formats, screen/glasses/Quest viewing,
-and compatible Insta360 INSV 360° playback. A dedicated source card presents SMB 2/3 Windows shares,
+and compatible Insta360 INSV 360° and Tiny Planet playback. A dedicated source card presents SMB 2/3 Windows shares,
 DeoVR-compatible catalogs, JillVR support and advanced catalog filters. Image quality and playback
 controls appear in a compact final row.
 
