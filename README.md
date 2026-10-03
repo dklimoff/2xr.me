@@ -45,7 +45,9 @@ with a tightly cropped SVG viewBox and Player at weight 600.
 The two download choices dominate the first screen. The responsive layout uses
 natural scrolling and stacks downloads before product information on phones.
 The interface images are cropped screenshots of the approved HTML design reference,
-not claims about installed-player or device verification. Their source is
+not claims about installed-player or device verification. The website lists video
+formats directly over the mountain background, above the illustrated controls.
+Their source is
 `docs/player/ui-plans/capsule-2026-10-03` in the player repository.
 Android and Mac compatibility includes prominent XREAL One and VITURE Beast
 labels with their original brand marks. These are display labels, not controls.

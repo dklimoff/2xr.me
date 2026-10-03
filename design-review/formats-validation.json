@@ -1,0 +1,56 @@
+[
+  {
+    "labelInsideImage": true,
+    "labelToControlsGap": 44.5515104166667,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "labelInsideImage": true,
+    "labelToControlsGap": 63.305781249999995,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "labelInsideImage": true,
+    "labelToControlsGap": 63.305781249999995,
+    "overflow": false,
+    "width": 600
+  },
+  {
+    "labelInsideImage": true,
+    "labelToControlsGap": 20.813920454545496,
+    "overflow": false,
+    "width": 768
+  },
+  {
+    "labelInsideImage": true,
+    "labelToControlsGap": 38.024857954545496,
+    "overflow": false,
+    "width": 1024
+  },
+  {
+    "labelInsideImage": true,
+    "labelToControlsGap": 55.11803977272723,
+    "overflow": false,
+    "width": 1280
+  },
+  {
+    "labelInsideImage": true,
+    "labelToControlsGap": 9.679119318181847,
+    "overflow": false,
+    "width": 601
+  },
+  {
+    "labelInsideImage": true,
+    "labelToControlsGap": 21.613636363636378,
+    "overflow": false,
+    "width": 700
+  },
+  {
+    "labelInsideImage": true,
+    "labelToControlsGap": 23.4244318181818,
+    "overflow": false,
+    "width": 901
+  }
+]
