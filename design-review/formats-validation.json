@@ -1,56 +1,79 @@
 [
   {
     "labelInsideImage": true,
-    "labelToControlsGap": 44.5515104166667,
+    "labelToControlsGap": 21.5515104166667,
     "overflow": false,
+    "text": "XR Glasses · Oculus Quest\n2D / 3D · VR180 · 360°\nFisheye 190° · Insta360 INSV",
     "width": 320
   },
   {
     "labelInsideImage": true,
-    "labelToControlsGap": 63.305781249999995,
+    "labelToControlsGap": 40.305781249999995,
     "overflow": false,
+    "text": "XR Glasses · Oculus Quest\n2D / 3D · VR180 · 360°\nFisheye 190° · Insta360 INSV",
     "width": 390
   },
   {
     "labelInsideImage": true,
-    "labelToControlsGap": 63.305781249999995,
+    "labelToControlsGap": 40.305781249999995,
     "overflow": false,
+    "text": "XR Glasses · Oculus Quest\n2D / 3D · VR180 · 360°\nFisheye 190° · Insta360 INSV",
     "width": 600
   },
   {
     "labelInsideImage": true,
-    "labelToControlsGap": 20.813920454545496,
+    "labelToControlsGap": 22.03863636363633,
     "overflow": false,
-    "width": 768
-  },
-  {
-    "labelInsideImage": true,
-    "labelToControlsGap": 38.024857954545496,
-    "overflow": false,
-    "width": 1024
-  },
-  {
-    "labelInsideImage": true,
-    "labelToControlsGap": 55.11803977272723,
-    "overflow": false,
-    "width": 1280
-  },
-  {
-    "labelInsideImage": true,
-    "labelToControlsGap": 9.679119318181847,
-    "overflow": false,
+    "text": "XR Glasses · Oculus Quest\n2D / 3D · VR180 · 360°\nFisheye 190° · Insta360 INSV",
     "width": 601
   },
   {
     "labelInsideImage": true,
-    "labelToControlsGap": 21.613636363636378,
+    "labelToControlsGap": 40.402698863636374,
     "overflow": false,
+    "text": "XR Glasses · Oculus Quest\n2D / 3D · VR180 · 360°\nFisheye 190° · Insta360 INSV",
     "width": 700
   },
   {
     "labelInsideImage": true,
-    "labelToControlsGap": 23.4244318181818,
+    "labelToControlsGap": 43.01349431818176,
     "overflow": false,
+    "text": "XR Glasses · Oculus Quest\n2D / 3D · VR180 · 360°\nFisheye 190° · Insta360 INSV",
+    "width": 768
+  },
+  {
+    "labelInsideImage": true,
+    "labelToControlsGap": 56.68295454545455,
+    "overflow": false,
+    "text": "XR Glasses · Oculus Quest\n2D / 3D · VR180 · 360°\nFisheye 190° · Insta360 INSV",
     "width": 901
+  },
+  {
+    "labelInsideImage": true,
+    "labelToControlsGap": 71.15269886363637,
+    "overflow": false,
+    "text": "XR Glasses · Oculus Quest\n2D / 3D · VR180 · 360°\nFisheye 190° · Insta360 INSV",
+    "width": 979
+  },
+  {
+    "labelInsideImage": true,
+    "labelToControlsGap": 9.800852272727298,
+    "overflow": false,
+    "text": "XR Glasses · Oculus Quest\n2D / 3D · VR180 · 360°\nFisheye 190° · Insta360 INSV",
+    "width": 980
+  },
+  {
+    "labelInsideImage": true,
+    "labelToControlsGap": 15.024857954545496,
+    "overflow": false,
+    "text": "XR Glasses · Oculus Quest\n2D / 3D · VR180 · 360°\nFisheye 190° · Insta360 INSV",
+    "width": 1024
+  },
+  {
+    "labelInsideImage": true,
+    "labelToControlsGap": 32.11803977272723,
+    "overflow": false,
+    "text": "XR Glasses · Oculus Quest\n2D / 3D · VR180 · 360°\nFisheye 190° · Insta360 INSV",
+    "width": 1280
   }
 ]

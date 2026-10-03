@@ -16,3 +16,7 @@ missing images. Both primary download choices end by 470 px from the page top.
 Asset existence, SVG syntax, unique IDs and internal anchors were checked. These
 checks concern the static website and approved interface preview, not player or
 physical-device acceptance.
+
+The preview caption also lists XR Glasses and Oculus Quest above the video formats.
+Its three-line hierarchy was checked at 11 widths, including the 600/601 and
+979/980 px layout transitions; every case keeps at least 8 px above the controls.
