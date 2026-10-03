@@ -1,0 +1,212 @@
+[
+  {
+    "downloads": [
+      {
+        "rect": {
+          "bottom": 323.5,
+          "height": 134.5,
+          "left": 31,
+          "right": 289,
+          "top": 189,
+          "width": 258,
+          "x": 31,
+          "y": 189
+        },
+        "text": "Android & Quest\n\nAPK · Phone, tablet & headset\n\nGitHub Releases\nComing soon"
+      },
+      {
+        "rect": {
+          "bottom": 470,
+          "height": 134.5,
+          "left": 31,
+          "right": 289,
+          "top": 335.5,
+          "width": 258,
+          "x": 31,
+          "y": 335.5
+        },
+        "text": "macOS\n\nDMG · Apple Silicon\n\nGitHub Releases\nComing soon"
+      }
+    ],
+    "images": [],
+    "overflow": [],
+    "pageWidth": 320,
+    "supportLink": null,
+    "width": 320
+  },
+  {
+    "downloads": [
+      {
+        "rect": {
+          "bottom": 317.5,
+          "height": 136.5,
+          "left": 31,
+          "right": 359,
+          "top": 181,
+          "width": 328,
+          "x": 31,
+          "y": 181
+        },
+        "text": "Android & Quest\n\nAPK · Phone, tablet & headset\n\nGitHub Releases\nComing soon"
+      },
+      {
+        "rect": {
+          "bottom": 466,
+          "height": 136.5,
+          "left": 31,
+          "right": 359,
+          "top": 329.5,
+          "width": 328,
+          "x": 31,
+          "y": 329.5
+        },
+        "text": "macOS\n\nDMG · Apple Silicon\n\nGitHub Releases\nComing soon"
+      }
+    ],
+    "images": [],
+    "overflow": [],
+    "pageWidth": 390,
+    "supportLink": null,
+    "width": 390
+  },
+  {
+    "downloads": [
+      {
+        "rect": {
+          "bottom": 317.5,
+          "height": 136.5,
+          "left": 31,
+          "right": 569,
+          "top": 181,
+          "width": 538,
+          "x": 31,
+          "y": 181
+        },
+        "text": "Android & Quest\n\nAPK · Phone, tablet & headset\n\nGitHub Releases\nComing soon"
+      },
+      {
+        "rect": {
+          "bottom": 466,
+          "height": 136.5,
+          "left": 31,
+          "right": 569,
+          "top": 329.5,
+          "width": 538,
+          "x": 31,
+          "y": 329.5
+        },
+        "text": "macOS\n\nDMG · Apple Silicon\n\nGitHub Releases\nComing soon"
+      }
+    ],
+    "images": [],
+    "overflow": [],
+    "pageWidth": 600,
+    "supportLink": null,
+    "width": 600
+  },
+  {
+    "downloads": [
+      {
+        "rect": {
+          "bottom": 344,
+          "height": 151.5,
+          "left": 45,
+          "right": 377,
+          "top": 192.5,
+          "width": 332,
+          "x": 45,
+          "y": 192.5
+        },
+        "text": "Android & Quest\n\nAPK · Phone, tablet & headset\n\nGitHub Releases\nComing soon"
+      },
+      {
+        "rect": {
+          "bottom": 344,
+          "height": 151.5,
+          "left": 391,
+          "right": 723,
+          "top": 192.5,
+          "width": 332,
+          "x": 391,
+          "y": 192.5
+        },
+        "text": "macOS\n\nDMG · Apple Silicon\n\nGitHub Releases\nComing soon"
+      }
+    ],
+    "images": [],
+    "overflow": [],
+    "pageWidth": 768,
+    "supportLink": null,
+    "width": 768
+  },
+  {
+    "downloads": [
+      {
+        "rect": {
+          "bottom": 352,
+          "height": 159.5,
+          "left": 45,
+          "right": 505,
+          "top": 192.5,
+          "width": 460,
+          "x": 45,
+          "y": 192.5
+        },
+        "text": "Android & Quest\n\nAPK · Phone, tablet & headset\n\nGitHub Releases\nComing soon"
+      },
+      {
+        "rect": {
+          "bottom": 352,
+          "height": 159.5,
+          "left": 519,
+          "right": 979,
+          "top": 192.5,
+          "width": 460,
+          "x": 519,
+          "y": 192.5
+        },
+        "text": "macOS\n\nDMG · Apple Silicon\n\nGitHub Releases\nComing soon"
+      }
+    ],
+    "images": [],
+    "overflow": [],
+    "pageWidth": 1024,
+    "supportLink": null,
+    "width": 1024
+  },
+  {
+    "downloads": [
+      {
+        "rect": {
+          "bottom": 352,
+          "height": 159.5,
+          "left": 101,
+          "right": 633,
+          "top": 192.5,
+          "width": 532,
+          "x": 101,
+          "y": 192.5
+        },
+        "text": "Android & Quest\n\nAPK · Phone, tablet & headset\n\nGitHub Releases\nComing soon"
+      },
+      {
+        "rect": {
+          "bottom": 352,
+          "height": 159.5,
+          "left": 647,
+          "right": 1179,
+          "top": 192.5,
+          "width": 532,
+          "x": 647,
+          "y": 192.5
+        },
+        "text": "macOS\n\nDMG · Apple Silicon\n\nGitHub Releases\nComing soon"
+      }
+    ],
+    "images": [],
+    "overflow": [],
+    "pageWidth": 1280,
+    "supportLink": null,
+    "width": 1280
+  }
+]

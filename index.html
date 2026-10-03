@@ -3,115 +3,80 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#0e1418">
-    <meta name="description" content="2XR Player is a video player in development for Android and macOS with XR glasses, plus Oculus Quest 2 / 3. Local files, SMB shares, 2D, 3D, VR180 and 360° video.">
+    <meta name="theme-color" content="#160f09">
+    <meta name="description" content="2XR Player for Android, Apple Silicon Mac and Quest. Play your local files, network shares and catalogs in 2D, 3D and XR. Downloads coming soon.">
     <meta property="og:type" content="website">
     <meta property="og:title" content="2XR Player">
-    <meta property="og:description" content="Video player for Android and macOS with XREAL One and VITURE Beast, plus Oculus Quest 2 / 3. In development.">
-    <title>2XR Player</title>
-    <link rel="canonical" href="https://2xr.me/">
+    <meta property="og:description" content="Your videos. On screen and in XR. Android, Mac and Quest.">
     <meta property="og:url" content="https://2xr.me/">
-    <link rel="icon" href="assets/favicon.svg?v=2" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css?v=10">
+    <title>2XR Player — Android, Mac &amp; Quest</title>
+    <link rel="canonical" href="https://2xr.me/">
+    <link rel="icon" href="assets/favicon.svg?v=3" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css?v=11">
   </head>
   <body>
     <main class="page">
       <header class="header">
-        <h1 class="brand"><img src="assets/wordmark.svg?v=2" alt="2XR" width="104" height="45"><span>PLAYER</span></h1>
-        <span class="development">In development</span>
+        <h1 class="brand"><img src="assets/wordmark.svg?v=3" alt="2XR" width="70" height="28"><span>Player</span></h1>
+        <span class="development"><span aria-hidden="true"></span>In development</span>
       </header>
+      <p class="intro">Your videos. On screen and in XR.</p>
 
-      <section class="download-section" aria-labelledby="downloads-title">
-        <div>
-          <h2 id="downloads-title">Downloads</h2>
-          <p id="download-note">Coming soon</p>
+      <section class="panel downloads-panel" aria-labelledby="downloads-title">
+        <div class="panel-heading"><h2 id="downloads-title">Get 2XR Player</h2><span class="section-note">Downloads coming soon</span></div>
+        <div class="download-content">
+          <div class="downloads">
+            <article class="download-card" aria-labelledby="apk-title">
+              <div class="download-platform"><img src="assets/icons/android.svg" alt="" width="32" height="32"><div><h3 id="apk-title">Android &amp; Quest</h3><p>APK · Phone, tablet &amp; headset</p></div></div>
+              <div class="download-bottom"><span>GitHub Releases</span><span class="availability">Coming soon</span></div>
+            </article>
+            <article class="download-card" aria-labelledby="mac-title">
+              <div class="download-platform"><img src="assets/icons/apple-silicon.svg" alt="" width="32" height="32"><div><h3 id="mac-title">macOS</h3><p>DMG · Apple Silicon</p></div></div>
+              <div class="download-bottom"><span>GitHub Releases</span><span class="availability">Coming soon</span></div>
+            </article>
+          </div>
+          <div class="distribution-row">
+            <ul class="stores" aria-label="Upcoming store releases">
+              <li><img src="assets/icons/google-play.svg" alt="" width="20" height="20"><span>Google Play</span><small>Coming soon</small></li>
+              <li><img src="assets/icons/oculus.svg" alt="" width="22" height="20"><span>Meta Quest Store</span><small>Coming soon</small></li>
+            </ul>
+            <span class="support-pending">Support on <strong>Boosty</strong><small>Link coming soon</small></span>
+          </div>
         </div>
-        <ul class="downloads" aria-describedby="download-note">
-          <li><span class="download-link" role="link" aria-disabled="true"><img class="download-icon" src="assets/icons/google-play.svg" alt="" width="28" height="28"><span>Google Play</span></span></li>
-          <li><span class="download-link" role="link" aria-disabled="true"><img class="download-icon" src="assets/icons/oculus.svg" alt="" width="28" height="28"><span>Oculus Store</span></span></li>
-          <li><span class="download-link" role="link" aria-disabled="true"><img class="download-icon" src="assets/icons/android.svg" alt="Android" width="28" height="28"><span class="download-label">Android &amp; Quest APK<small>GitHub Releases</small></span></span></li>
-          <li><span class="download-link" role="link" aria-disabled="true"><img class="download-icon" src="assets/icons/apple-silicon.svg" alt="Apple Silicon" width="28" height="28"><span class="download-label">macOS DMG<small>Apple Silicon · GitHub Releases</small></span></span></li>
-        </ul>
       </section>
 
-      <section class="devices" aria-labelledby="devices-title">
-        <h2 id="devices-title">Devices</h2>
+      <section class="panel preview-panel" aria-labelledby="preview-title">
+        <div class="panel-heading"><h2 id="preview-title">The player</h2><span class="section-note">Interface preview</span></div>
+        <div class="preview-layout">
+          <div class="preview-copy"><p class="preview-lead">One player.<br> Your own library.</p><p>Open a file, connect a network share or browse a catalog. Keep playback, view and image controls together.</p><div class="format-strip" aria-label="Supported video types"><span>2D / 3D</span><span>VR180</span><span>360°</span><span>INSV</span></div></div>
+          <picture class="interface-preview"><source media="(max-width: 600px)" srcset="assets/interface-phone.png" width="390" height="450"><img src="assets/interface-desktop.png" alt="Capsule interface preview: a video with a warm compact control panel, round Play button and Open, View, Image and Format controls." width="992" height="440" loading="lazy"></picture>
+        </div>
+      </section>
+
+      <section class="panel devices-panel" aria-labelledby="devices-title">
+        <div class="panel-heading"><h2 id="devices-title">On your devices</h2></div>
         <div class="device-grid">
-          <div class="device-group">
-            <h3>Android + glasses</h3>
-            <ul>
-              <li class="device-pair"><strong class="device-host"><img class="device-logo" src="assets/icons/android.svg" alt="Android" width="24" height="24"><span>Android</span></strong><span class="pair-plus">+</span><strong class="device-name"><img class="device-logo device-logo-xreal" src="assets/icons/xreal.svg" alt="XREAL" width="62" height="14"><span>One</span></strong></li>
-              <li class="device-pair"><strong class="device-host"><img class="device-logo" src="assets/icons/android.svg" alt="Android" width="24" height="24"><span>Android</span></strong><span class="pair-plus">+</span><strong class="device-name"><img class="device-logo" src="assets/icons/viture.svg" alt="VITURE" width="26" height="24"><span>Beast</span></strong></li>
-            </ul>
-          </div>
-          <div class="device-group">
-            <h3>Standalone VR</h3>
-            <ul>
-              <li class="device-option"><strong class="device-name"><img class="device-logo" src="assets/icons/oculus.svg" alt="Oculus" width="26" height="24"><span>Oculus Quest 3</span></strong></li>
-              <li class="device-option"><strong class="device-name"><img class="device-logo" src="assets/icons/oculus.svg" alt="Oculus" width="26" height="24"><span>Oculus Quest 2</span></strong></li>
-            </ul>
-          </div>
-          <div class="device-group">
-            <h3>macOS + glasses</h3>
-            <ul>
-              <li class="device-pair"><strong class="device-host"><img class="device-logo device-logo-apple" src="assets/icons/apple-silicon.svg" alt="Apple Silicon" width="22" height="22"><span>Apple Silicon</span></strong><span class="pair-plus">+</span><strong class="device-name"><img class="device-logo device-logo-xreal" src="assets/icons/xreal.svg" alt="XREAL" width="62" height="14"><span>One</span></strong></li>
-              <li class="device-pair"><strong class="device-host"><img class="device-logo device-logo-apple" src="assets/icons/apple-silicon.svg" alt="Apple Silicon" width="22" height="22"><span>Apple Silicon</span></strong><span class="pair-plus">+</span><strong class="device-name"><img class="device-logo" src="assets/icons/viture.svg" alt="VITURE" width="26" height="24"><span>Beast</span></strong></li>
-            </ul>
-          </div>
+          <article class="device"><img src="assets/icons/android.svg" alt="" width="26" height="26"><h3>Android</h3><p>Phone &amp; tablet</p><p class="device-detail">XREAL One · VITURE Beast</p></article>
+          <article class="device"><img src="assets/icons/apple-silicon.svg" alt="" width="26" height="26"><h3>Mac</h3><p>Apple Silicon</p><p class="device-detail">XREAL One · VITURE Beast</p></article>
+          <article class="device"><img src="assets/icons/oculus.svg" alt="" width="30" height="26"><h3>Quest</h3><p>Quest 2 / 3</p><p class="device-detail">Standalone VR · Controllers</p></article>
         </div>
       </section>
 
-      <section class="features" aria-labelledby="features-title">
-        <h2 id="features-title">Features</h2>
-        <div class="feature-grid">
-          <article class="feature-card feature-card-primary">
-            <h3>Spatial video</h3>
-            <ul class="format-showcase" aria-label="Spatial video formats">
-              <li><span class="format-icon format-icon-180" aria-hidden="true"></span><strong>VR180</strong></li>
-              <li><span class="format-icon format-icon-fisheye" aria-hidden="true"></span><strong>Fisheye <span>190°</span></strong></li>
-              <li><span class="format-icon format-icon-alpha" aria-hidden="true"></span><strong>Passthrough</strong></li>
-            </ul>
-            <p class="feature-note">Also 2D, 3D and 360° · Quest passthrough for compatible alpha video</p>
-          </article>
-          <article class="feature-card feature-card-primary">
-            <h3>Watch your way</h3>
-            <ul class="viewing-modes">
-              <li><span class="mode-icon mode-icon-screen" aria-hidden="true"></span><span>On screen</span></li>
-              <li><span class="mode-icon mode-icon-glasses" aria-hidden="true"></span><span>XREAL One · VITURE Beast</span></li>
-              <li><span class="mode-icon mode-icon-quest" aria-hidden="true"></span><span>Oculus Quest 2 / 3</span></li>
-            </ul>
-          </article>
-          <article class="feature-card feature-card-primary feature-card-insv">
-            <h3>Insta360 INSV</h3>
-            <div class="insv-showcase">
-              <span class="insv-orbit" aria-hidden="true">360°</span>
-              <p><strong>Immersive 360° &amp; Tiny Planet</strong><span>Compatible dual-lens recordings play with stitching and recorded-motion stabilization.</span><span class="insv-modes"><span>QUEST VR360</span><span>TINY PLANET</span></span></p>
-            </div>
-          </article>
-          <article class="feature-card feature-card-sources">
-            <h3>Media sources</h3>
-            <ul class="source-showcase" aria-label="Media sources and catalog tools">
-              <li><svg class="source-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="8" height="8" rx="1"></rect><rect x="13" y="3" width="8" height="8" rx="1"></rect><rect x="3" y="13" width="8" height="8" rx="1"></rect><rect x="13" y="13" width="8" height="8" rx="1"></rect></svg><span><strong>SMB 2 / 3</strong><small>Windows network shares</small></span></li>
-              <li><svg class="source-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="16" height="13" rx="2"></rect><path d="M7 2h12a2 2 0 0 1 2 2v11"></path><path class="source-icon-fill" d="m10 9 5 3-5 3z"></path></svg><span><strong>DeoVR</strong><small>Compatible catalogs</small></span></li>
-              <li><svg class="source-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3c2.7 2.5 4 5.5 4 9s-1.3 6.5-4 9M12 3c-2.7 2.5-4 5.5-4 9s1.3 6.5 4 9"></path></svg><span><strong>JillVR</strong><small>Catalog support</small></span></li>
-              <li><svg class="source-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h5M15 6h5M4 12h9M19 12h1M4 18h2M12 18h8"></path><circle cx="12" cy="6" r="2.5"></circle><circle cx="16" cy="12" r="2.5"></circle><circle cx="9" cy="18" r="2.5"></circle></svg><span><strong>Advanced filters</strong><small>Search · 2D / VR / PT · Flat / Mono · Views</small></span></li>
-            </ul>
-            <p class="feature-note source-note">Also local files, folders and direct URLs</p>
-          </article>
-          <article class="feature-card feature-card-secondary">
-            <h3>Image quality</h3>
-            <p>SDR, HDR10 and HLG color, sharpening and optional SGSR1 upscaling.</p>
-            <span class="feature-keywords">SDR · HDR10 · HLG · SGSR1</span>
-          </article>
-          <article class="feature-card feature-card-secondary">
-            <h3>Playback controls</h3>
-            <p>Head tracking, recenter, zoom and precise seeking. Quest controllers supported.</p>
-            <span class="feature-keywords">3DoF · ZOOM · 1:1</span>
-          </article>
-        </div>
-      </section>
-
-
+      <div class="feature-grid">
+        <section class="panel feature" aria-labelledby="sources-title">
+          <div class="panel-heading"><h2 id="sources-title">Your sources</h2></div>
+          <div class="feature-content"><ul class="feature-list"><li><strong>Files &amp; folders</strong><span>Local video and direct URLs</span></li><li><strong>SMB 2 / 3</strong><span>Windows and NAS shares</span></li><li><strong>Catalogs</strong><span>DeoVR-compatible · JillVR</span></li></ul><p class="feature-note">Search, sort and filter by format, view and media type.</p></div>
+        </section>
+        <section class="panel feature" aria-labelledby="formats-title">
+          <div class="panel-heading"><h2 id="formats-title">Spatial formats</h2></div>
+          <div class="feature-content"><p class="feature-lead">2D &amp; 3D · VR180 · 360°</p><p>Fisheye 190° with optional passthrough for compatible media.</p><div class="insv-group"><strong>Insta360 INSV</strong><div class="mode-capsule" aria-label="INSV view modes"><span>Sphere</span><span>Wide</span><span>Tiny Planet</span></div><p>Stitching and recorded-motion stabilization for compatible dual-lens recordings.</p></div></div>
+        </section>
+        <section class="panel feature" aria-labelledby="image-title">
+          <div class="panel-heading"><h2 id="image-title">Image &amp; control</h2></div>
+          <div class="feature-content"><ul class="feature-list"><li><strong>Color &amp; detail</strong><span>SDR · HDR10 · HLG<br>Sharpening · Optional SGSR1</span></li><li><strong>A natural view</strong><span>Head tracking · Recenter · Zoom</span></li><li><strong>Precise playback</strong><span>Fine seeking · Quest controllers</span></li></ul></div>
+        </section>
+      </div>
+      <footer><span>2XR Player</span><a href="#downloads-title">Back to downloads <span aria-hidden="true">↑</span></a></footer>
     </main>
   </body>
 </html>

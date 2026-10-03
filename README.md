@@ -5,21 +5,24 @@ Static website for [2xr.me](https://2xr.me/), hosted on GitHub Pages from
 
 ## Content
 
-The page lists Android and Apple Silicon macOS support for XR glasses and Oculus Quest devices.
-Its primary feature cards cover VR180/fisheye/passthrough formats, screen/glasses/Quest viewing,
-and compatible Insta360 INSV 360° and Tiny Planet playback. A dedicated source card presents SMB 2/3 Windows shares,
-DeoVR-compatible catalogs, JillVR support and advanced catalog filters. Image quality and playback
-controls appear in a compact final row.
+Downloads are the primary purpose of the page. Android/Quest APK and Apple Silicon
+macOS DMG choices appear first, followed by upcoming store channels and Boosty
+support. Every unavailable channel states Coming soon and has no download link.
+Below them, the page shows the approved Capsule interface preview, supported
+devices and three compact sections for sources, spatial formats and image/control.
+INSV groups Sphere, Wide and Tiny Planet together. Passthrough availability is
+qualified by compatible media rather than promising it on a particular device.
 
-Google Play, Oculus Store, APK and Apple Silicon macOS DMG buttons are intentionally unavailable placeholders.
+Google Play, Meta Quest Store, APK and Apple Silicon macOS DMG options are intentionally unavailable placeholders.
 APKs and the macOS DMG will be uploaded as assets in the separate public
 [dklimoff/2xr](https://github.com/dklimoff/2xr) release repository. Once a release
 is published, show its version on the site and point the APK and DMG buttons to its
 versioned release page, such as
 `https://github.com/dklimoff/2xr/releases/tag/v1.0.N`. The general latest-release
 URL is `https://github.com/dklimoff/2xr/releases/latest`. Store URLs remain pending.
-Preparing these links does not activate downloads; the current page stays unchanged
-until a binary release is explicitly requested and its files are available.
+Preparing a release link does not activate downloads; activate a channel only
+after a binary release is explicitly requested and its files are available.
+Boosty remains plain text until the user supplies the exact support-page URL.
 No APKs, DMGs, analytics, third-party scripts or remote fonts are included in the site.
 
 ## Local preview
@@ -32,17 +35,19 @@ Open `http://127.0.0.1:4173/`. No package installation or build is required.
 
 ## Design
 
-The palette uses three color roles: midnight slate (`#0e1418`) for the canvas,
-warm ivory (`#f2eee7`) for text, and restrained burnt orange (`#c68143`) for
-the 2XR mark and direct-download emphasis. Surface and border shades are
-derived from the slate family. Store placeholders remain neutral; APK and DMG
-placeholders carry the orange accent. Device logos precede three illustrated feature cards,
-a full-width source card and two compact supporting cards with soft corners and quiet outlines.
+The website shares the approved Capsule palette and typography with the player:
+canvas `#160f09`, panel `#211810`, full-width title section `#100b07`, text
+`#fff5ed`, muted text `#c5ad99`, border `#745033` and accent `#ff9229`.
+Title sections end in a straight horizontal color cut. Panels use 24 px corners;
+related INSV modes form a joined capsule. The launcher pixel geometry is preserved,
+with a tightly cropped SVG viewBox and Player at weight 600.
 
-The desktop layout uses three feature columns and compact spacing. Narrow
-screens use fewer columns and preserve natural scrolling where necessary.
-Icon sources and license notices are under `assets/icons/`; the Apple Silicon
-mark is a minimal monochrome Simple Icons glyph used to identify the macOS build.
+The two download choices dominate the first screen. The responsive layout uses
+natural scrolling and stacks downloads before product information on phones.
+The interface images are cropped screenshots of the approved HTML design reference,
+not claims about installed-player or device verification. Their source is
+`docs/player/ui-plans/capsule-2026-10-03` in the player repository.
+Icon sources and license notices are under `assets/icons/`.
 
 ## Deployment
 
