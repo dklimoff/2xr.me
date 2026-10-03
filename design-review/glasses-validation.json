@@ -1,0 +1,104 @@
+[
+  {
+    "brands": [
+      {
+        "clipped": false,
+        "labels": "One\nVITURE Beast",
+        "xreal": "assets/icons/xreal.svg"
+      },
+      {
+        "clipped": false,
+        "labels": "One\nVITURE Beast",
+        "xreal": "assets/icons/xreal.svg"
+      }
+    ],
+    "missingImages": 0,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "brands": [
+      {
+        "clipped": false,
+        "labels": "One\nVITURE Beast",
+        "xreal": "assets/icons/xreal.svg"
+      },
+      {
+        "clipped": false,
+        "labels": "One\nVITURE Beast",
+        "xreal": "assets/icons/xreal.svg"
+      }
+    ],
+    "missingImages": 0,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "brands": [
+      {
+        "clipped": false,
+        "labels": "One\nVITURE Beast",
+        "xreal": "assets/icons/xreal.svg"
+      },
+      {
+        "clipped": false,
+        "labels": "One\nVITURE Beast",
+        "xreal": "assets/icons/xreal.svg"
+      }
+    ],
+    "missingImages": 0,
+    "overflow": false,
+    "width": 600
+  },
+  {
+    "brands": [
+      {
+        "clipped": false,
+        "labels": "One\nVITURE Beast",
+        "xreal": "assets/icons/xreal.svg"
+      },
+      {
+        "clipped": false,
+        "labels": "One\nVITURE Beast",
+        "xreal": "assets/icons/xreal.svg"
+      }
+    ],
+    "missingImages": 0,
+    "overflow": false,
+    "width": 768
+  },
+  {
+    "brands": [
+      {
+        "clipped": false,
+        "labels": "One\nVITURE Beast",
+        "xreal": "assets/icons/xreal.svg"
+      },
+      {
+        "clipped": false,
+        "labels": "One\nVITURE Beast",
+        "xreal": "assets/icons/xreal.svg"
+      }
+    ],
+    "missingImages": 0,
+    "overflow": false,
+    "width": 1024
+  },
+  {
+    "brands": [
+      {
+        "clipped": false,
+        "labels": "One\nVITURE Beast",
+        "xreal": "assets/icons/xreal.svg"
+      },
+      {
+        "clipped": false,
+        "labels": "One\nVITURE Beast",
+        "xreal": "assets/icons/xreal.svg"
+      }
+    ],
+    "missingImages": 0,
+    "overflow": false,
+    "width": 1280
+  }
+]
