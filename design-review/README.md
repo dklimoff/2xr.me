@@ -17,6 +17,11 @@ Asset existence, SVG syntax, unique IDs and internal anchors were checked. These
 checks concern the static website and approved interface preview, not player or
 physical-device acceptance.
 
-The preview caption also lists XR Glasses and Oculus Quest above the video formats.
+The preview caption includes a joined model capsule for XREAL One, VITURE Beast
+and Quest 2 / 3 above the video formats.
 Its three-line hierarchy was checked at 11 widths, including the 600/601 and
 979/980 px layout transitions; every case keeps at least 8 px above the controls.
+
+`models-validation.json` records the current model-capsule layout at 11 widths.
+All model names fit, including the narrow 320 px layout, with no horizontal
+overflow or overlap with the pictured controls.

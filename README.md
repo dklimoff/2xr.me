@@ -47,7 +47,7 @@ natural scrolling and stacks downloads before product information on phones.
 The interface images are cropped screenshots of the approved HTML design reference,
 not claims about installed-player or device verification. The website lists video
 formats directly over the mountain background, above the illustrated controls,
-with an accent line for XR Glasses and Oculus Quest.
+with a joined device-model capsule for XREAL One, VITURE Beast and Quest 2 / 3.
 Their source is
 `docs/player/ui-plans/capsule-2026-10-03` in the player repository.
 Android and Mac compatibility includes prominent XREAL One and VITURE Beast

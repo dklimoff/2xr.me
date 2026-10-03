@@ -1,0 +1,123 @@
+[
+  {
+    "labelToControlsGap": 17.5515104166667,
+    "modelOverflow": false,
+    "models": [
+      "XREAL One",
+      "VITURE Beast",
+      "Quest 2 / 3"
+    ],
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "labelToControlsGap": 36.305781249999995,
+    "modelOverflow": false,
+    "models": [
+      "XREAL One",
+      "VITURE Beast",
+      "Quest 2 / 3"
+    ],
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "labelToControlsGap": 36.305781249999995,
+    "modelOverflow": false,
+    "models": [
+      "XREAL One",
+      "VITURE Beast",
+      "Quest 2 / 3"
+    ],
+    "overflow": false,
+    "width": 600
+  },
+  {
+    "labelToControlsGap": 16.03863636363633,
+    "modelOverflow": false,
+    "models": [
+      "XREAL One",
+      "VITURE Beast",
+      "Quest 2 / 3"
+    ],
+    "overflow": false,
+    "width": 601
+  },
+  {
+    "labelToControlsGap": 34.402698863636374,
+    "modelOverflow": false,
+    "models": [
+      "XREAL One",
+      "VITURE Beast",
+      "Quest 2 / 3"
+    ],
+    "overflow": false,
+    "width": 700
+  },
+  {
+    "labelToControlsGap": 37.01349431818176,
+    "modelOverflow": false,
+    "models": [
+      "XREAL One",
+      "VITURE Beast",
+      "Quest 2 / 3"
+    ],
+    "overflow": false,
+    "width": 768
+  },
+  {
+    "labelToControlsGap": 56.68295454545455,
+    "modelOverflow": false,
+    "models": [
+      "XREAL One",
+      "VITURE Beast",
+      "Quest 2 / 3"
+    ],
+    "overflow": false,
+    "width": 901
+  },
+  {
+    "labelToControlsGap": 71.15269886363637,
+    "modelOverflow": false,
+    "models": [
+      "XREAL One",
+      "VITURE Beast",
+      "Quest 2 / 3"
+    ],
+    "overflow": false,
+    "width": 979
+  },
+  {
+    "labelToControlsGap": 9.800852272727298,
+    "modelOverflow": false,
+    "models": [
+      "XREAL One",
+      "VITURE Beast",
+      "Quest 2 / 3"
+    ],
+    "overflow": false,
+    "width": 980
+  },
+  {
+    "labelToControlsGap": 15.024857954545496,
+    "modelOverflow": false,
+    "models": [
+      "XREAL One",
+      "VITURE Beast",
+      "Quest 2 / 3"
+    ],
+    "overflow": false,
+    "width": 1024
+  },
+  {
+    "labelToControlsGap": 32.11803977272723,
+    "modelOverflow": false,
+    "models": [
+      "XREAL One",
+      "VITURE Beast",
+      "Quest 2 / 3"
+    ],
+    "overflow": false,
+    "width": 1280
+  }
+]
